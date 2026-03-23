@@ -2,7 +2,6 @@
 
 **Application:** MakeMyTrip (https://www.makemytrip.com/)
 **Module:** Flight Booking
-**Prepared By:** QA Team
 **Date:** March 2026
 
 ---
