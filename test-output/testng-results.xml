@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-23T20:26:40 IST" name="Ditto Insurance Premium Validation Suite" finished-at="2026-03-23T20:27:53 IST" duration-ms="72723">
+    <groups>
+    </groups>
+    <test started-at="2026-03-23T20:26:40 IST" name="Premium Calculation Test" finished-at="2026-03-23T20:27:53 IST" duration-ms="72723">
+      <class name="tests.PremiumValidationTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:26:40 IST" name="beforeSuite" finished-at="2026-03-23T20:26:40 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:26:40 IST" name="setUp" finished-at="2026-03-23T20:26:47 IST" duration-ms="6938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTotalPremiumCalculation(java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:26:47 IST" name="validateTotalPremiumCalculation" description="Validate Total Premium = Base Premium + Rider Premiums + GST" data-provider="userData" finished-at="2026-03-23T20:26:57 IST" duration-ms="9761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalPremiumCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:26:57 IST" name="tearDown" finished-at="2026-03-23T20:26:59 IST" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:26:59 IST" name="setUp" finished-at="2026-03-23T20:27:04 IST" duration-ms="4401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTotalPremiumCalculation(java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:04 IST" name="validateTotalPremiumCalculation" description="Validate Total Premium = Base Premium + Rider Premiums + GST" data-provider="userData" finished-at="2026-03-23T20:27:15 IST" duration-ms="11521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalPremiumCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:15 IST" name="tearDown" finished-at="2026-03-23T20:27:18 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:18 IST" name="setUp" finished-at="2026-03-23T20:27:22 IST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTotalPremiumCalculation(java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:22 IST" name="validateTotalPremiumCalculation" description="Validate Total Premium = Base Premium + Rider Premiums + GST" data-provider="userData" finished-at="2026-03-23T20:27:34 IST" duration-ms="11538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalPremiumCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:34 IST" name="tearDown" finished-at="2026-03-23T20:27:36 IST" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:36 IST" name="setUp" finished-at="2026-03-23T20:27:41 IST" duration-ms="5423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPremiumSummaryDisplaysAllComponents()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:41 IST" name="verifyPremiumSummaryDisplaysAllComponents" description="Verify all premium components are displayed on the summary panel" finished-at="2026-03-23T20:27:51 IST" duration-ms="10253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPremiumSummaryDisplaysAllComponents -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:51 IST" name="tearDown" finished-at="2026-03-23T20:27:53 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.PremiumValidationTest@7e22550a]" started-at="2026-03-23T20:27:53 IST" name="afterSuite" finished-at="2026-03-23T20:27:53 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.PremiumValidationTest -->
+    </test> <!-- Premium Calculation Test -->
+  </suite> <!-- Ditto Insurance Premium Validation Suite -->
+</testng-results>

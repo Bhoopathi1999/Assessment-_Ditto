@@ -1,0 +1,230 @@
+20:26:40.460 [main] INFO  base.BaseTest - ========== TEST SUITE STARTED ==========
+20:26:40.465 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully
+20:26:40.633 [main] INFO  utils.ExtentReportManager - Extent Reports initialized. Report will be saved to: ./reports/TestReport.html
+20:26:40.642 [main] INFO  base.BaseTest - Test context started: Premium Calculation Test
+20:26:40.686 [main] INFO  base.BaseTest - --- Setting up test ---
+20:26:40.688 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+20:26:42.943 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+20:26:42.944 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+20:26:47.623 [main] INFO  base.BaseTest - Browser launched and navigated to application
+20:26:47.627 [main] INFO  base.BaseTest - TEST STARTED: validateTotalPremiumCalculation
+20:26:47.640 [main] INFO  utils.ExtentReportManager - Extent test created: validateTotalPremiumCalculation
+20:26:47.704 [main] INFO  tests.PremiumValidationTest - ====== Starting Premium Validation Test for: John Doe ======
+20:26:47.729 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+20:26:47.835 [main] INFO  pages.DittoHomePage - Ditto home page loaded successfully
+20:26:47.841 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+20:26:48.156 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+20:26:48.158 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+20:26:49.310 [main] INFO  pages.ProductSelectionPage - Policy understanding page loaded
+20:26:49.310 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+20:26:49.485 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+20:26:50.097 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+20:26:50.734 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+20:26:51.355 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+20:26:51.355 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+20:26:51.366 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+20:26:51.368 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+20:26:52.004 [main] INFO  pages.UserDetailsPage - Members selection page loaded
+20:26:52.005 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+20:26:52.126 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+20:26:52.535 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+20:26:52.537 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+20:26:52.675 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+20:26:52.691 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+20:26:53.287 [main] INFO  pages.UserDetailsPage - Plan page loaded
+20:26:53.287 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 28, Pincode: 560001
+20:26:53.288 [main] INFO  pages.UserDetailsPage - Entering age: 28
+20:26:53.362 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+20:26:53.446 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+20:26:53.753 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+20:26:53.753 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+20:26:53.769 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+20:26:56.803 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+20:26:56.804 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+20:26:56.938 [main] INFO  pages.PremiumSummaryPage - Base Premium: 13680.0
+20:26:56.938 [main] INFO  pages.PremiumSummaryPage - Extracting Rider/Add-on Premiums
+20:26:57.034 [main] INFO  pages.PremiumSummaryPage - Recommended Add-ons: 0.0
+20:26:57.127 [main] INFO  pages.PremiumSummaryPage - Other Add-ons: 0.0
+20:26:57.128 [main] INFO  pages.PremiumSummaryPage - Total Rider/Add-on Premiums: 0.0
+20:26:57.128 [main] INFO  pages.PremiumSummaryPage - GST is embedded in Base Premium on Ditto - no separate line item
+20:26:57.128 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+20:26:57.359 [main] INFO  pages.PremiumSummaryPage - Total Premium: 13680.0
+20:26:57.360 [main] INFO  tests.PremiumValidationTest - ========== PREMIUM BREAKDOWN ==========
+20:26:57.360 [main] INFO  tests.PremiumValidationTest - Base Premium   : Rs. 13680.0
+20:26:57.363 [main] INFO  tests.PremiumValidationTest - Rider Premiums : Rs. 0.0
+20:26:57.364 [main] INFO  tests.PremiumValidationTest - GST (embedded) : Rs. 0.0
+20:26:57.364 [main] INFO  tests.PremiumValidationTest - Total Premium  : Rs. 13680.0
+20:26:57.364 [main] INFO  tests.PremiumValidationTest - ========================================
+20:26:57.371 [main] INFO  tests.PremiumValidationTest - Expected Total : Rs. 13680.0
+20:26:57.371 [main] INFO  tests.PremiumValidationTest - Actual Total   : Rs. 13680.0
+20:26:57.376 [main] INFO  tests.PremiumValidationTest - ASSERTION PASSED: Total Premium matches expected calculation
+20:26:57.392 [main] INFO  base.BaseTest - TEST PASSED: validateTotalPremiumCalculation
+20:26:57.396 [main] INFO  base.BaseTest - --- Tearing down test ---
+20:26:57.397 [main] INFO  utils.DriverFactory - Quitting browser and cleaning up WebDriver
+20:26:59.622 [main] INFO  base.BaseTest - Browser closed successfully
+20:26:59.624 [main] INFO  base.BaseTest - --- Setting up test ---
+20:26:59.625 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+20:27:01.233 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+20:27:01.234 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+20:27:04.025 [main] INFO  base.BaseTest - Browser launched and navigated to application
+20:27:04.026 [main] INFO  base.BaseTest - TEST STARTED: validateTotalPremiumCalculation
+20:27:04.027 [main] INFO  utils.ExtentReportManager - Extent test created: validateTotalPremiumCalculation
+20:27:04.036 [main] INFO  tests.PremiumValidationTest - ====== Starting Premium Validation Test for: Alice Smith ======
+20:27:04.037 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+20:27:05.742 [main] INFO  pages.DittoHomePage - Ditto home page loaded successfully
+20:27:05.742 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+20:27:06.043 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+20:27:06.044 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+20:27:07.317 [main] INFO  pages.ProductSelectionPage - Policy understanding page loaded
+20:27:07.317 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+20:27:07.440 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+20:27:08.073 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+20:27:08.680 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+20:27:09.294 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+20:27:09.295 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+20:27:09.306 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+20:27:09.307 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+20:27:09.912 [main] INFO  pages.UserDetailsPage - Members selection page loaded
+20:27:09.913 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+20:27:10.031 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+20:27:10.444 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+20:27:10.444 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+20:27:10.573 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+20:27:10.586 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+20:27:11.183 [main] INFO  pages.UserDetailsPage - Plan page loaded
+20:27:11.184 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 35, Pincode: 560001
+20:27:11.184 [main] INFO  pages.UserDetailsPage - Entering age: 35
+20:27:11.260 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+20:27:11.343 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+20:27:11.685 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+20:27:11.685 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+20:27:11.686 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+20:27:14.692 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+20:27:14.692 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+20:27:14.927 [main] INFO  pages.PremiumSummaryPage - Base Premium: 15010.0
+20:27:14.927 [main] INFO  pages.PremiumSummaryPage - Extracting Rider/Add-on Premiums
+20:27:15.091 [main] INFO  pages.PremiumSummaryPage - Recommended Add-ons: 0.0
+20:27:15.252 [main] INFO  pages.PremiumSummaryPage - Other Add-ons: 0.0
+20:27:15.253 [main] INFO  pages.PremiumSummaryPage - Total Rider/Add-on Premiums: 0.0
+20:27:15.253 [main] INFO  pages.PremiumSummaryPage - GST is embedded in Base Premium on Ditto - no separate line item
+20:27:15.253 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+20:27:15.536 [main] INFO  pages.PremiumSummaryPage - Total Premium: 15010.0
+20:27:15.537 [main] INFO  tests.PremiumValidationTest - ========== PREMIUM BREAKDOWN ==========
+20:27:15.537 [main] INFO  tests.PremiumValidationTest - Base Premium   : Rs. 15010.0
+20:27:15.537 [main] INFO  tests.PremiumValidationTest - Rider Premiums : Rs. 0.0
+20:27:15.537 [main] INFO  tests.PremiumValidationTest - GST (embedded) : Rs. 0.0
+20:27:15.539 [main] INFO  tests.PremiumValidationTest - Total Premium  : Rs. 15010.0
+20:27:15.541 [main] INFO  tests.PremiumValidationTest - ========================================
+20:27:15.546 [main] INFO  tests.PremiumValidationTest - Expected Total : Rs. 15010.0
+20:27:15.546 [main] INFO  tests.PremiumValidationTest - Actual Total   : Rs. 15010.0
+20:27:15.547 [main] INFO  tests.PremiumValidationTest - ASSERTION PASSED: Total Premium matches expected calculation
+20:27:15.551 [main] INFO  base.BaseTest - TEST PASSED: validateTotalPremiumCalculation
+20:27:15.555 [main] INFO  base.BaseTest - --- Tearing down test ---
+20:27:15.555 [main] INFO  utils.DriverFactory - Quitting browser and cleaning up WebDriver
+20:27:18.143 [main] INFO  base.BaseTest - Browser closed successfully
+20:27:18.146 [main] INFO  base.BaseTest - --- Setting up test ---
+20:27:18.146 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+20:27:19.469 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+20:27:19.469 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+20:27:22.992 [main] INFO  base.BaseTest - Browser launched and navigated to application
+20:27:22.992 [main] INFO  base.BaseTest - TEST STARTED: validateTotalPremiumCalculation
+20:27:22.992 [main] INFO  utils.ExtentReportManager - Extent test created: validateTotalPremiumCalculation
+20:27:23.004 [main] INFO  tests.PremiumValidationTest - ====== Starting Premium Validation Test for: Rahul Kumar ======
+20:27:23.004 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+20:27:23.636 [main] INFO  pages.DittoHomePage - Ditto home page loaded successfully
+20:27:23.636 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+20:27:23.878 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+20:27:23.878 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+20:27:25.036 [main] INFO  pages.ProductSelectionPage - Policy understanding page loaded
+20:27:25.037 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+20:27:25.149 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+20:27:25.740 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+20:27:26.333 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+20:27:26.930 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+20:27:26.930 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+20:27:26.943 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+20:27:26.944 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+20:27:27.525 [main] INFO  pages.UserDetailsPage - Members selection page loaded
+20:27:27.525 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+20:27:27.625 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+20:27:28.008 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+20:27:28.009 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+20:27:28.119 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+20:27:28.133 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+20:27:28.713 [main] INFO  pages.UserDetailsPage - Plan page loaded
+20:27:28.714 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 45, Pincode: 560001
+20:27:28.715 [main] INFO  pages.UserDetailsPage - Entering age: 45
+20:27:28.800 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+20:27:28.908 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+20:27:29.176 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+20:27:29.177 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+20:27:29.177 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+20:27:32.569 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+20:27:32.569 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+20:27:33.317 [main] INFO  pages.PremiumSummaryPage - Base Premium: 17290.0
+20:27:33.317 [main] INFO  pages.PremiumSummaryPage - Extracting Rider/Add-on Premiums
+20:27:33.766 [main] INFO  pages.PremiumSummaryPage - Recommended Add-ons: 0.0
+20:27:34.204 [main] INFO  pages.PremiumSummaryPage - Other Add-ons: 0.0
+20:27:34.204 [main] INFO  pages.PremiumSummaryPage - Total Rider/Add-on Premiums: 0.0
+20:27:34.204 [main] INFO  pages.PremiumSummaryPage - GST is embedded in Base Premium on Ditto - no separate line item
+20:27:34.204 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+20:27:34.525 [main] INFO  pages.PremiumSummaryPage - Total Premium: 17290.0
+20:27:34.526 [main] INFO  tests.PremiumValidationTest - ========== PREMIUM BREAKDOWN ==========
+20:27:34.526 [main] INFO  tests.PremiumValidationTest - Base Premium   : Rs. 17290.0
+20:27:34.526 [main] INFO  tests.PremiumValidationTest - Rider Premiums : Rs. 0.0
+20:27:34.526 [main] INFO  tests.PremiumValidationTest - GST (embedded) : Rs. 0.0
+20:27:34.527 [main] INFO  tests.PremiumValidationTest - Total Premium  : Rs. 17290.0
+20:27:34.527 [main] INFO  tests.PremiumValidationTest - ========================================
+20:27:34.527 [main] INFO  tests.PremiumValidationTest - Expected Total : Rs. 17290.0
+20:27:34.529 [main] INFO  tests.PremiumValidationTest - Actual Total   : Rs. 17290.0
+20:27:34.530 [main] INFO  tests.PremiumValidationTest - ASSERTION PASSED: Total Premium matches expected calculation
+20:27:34.544 [main] INFO  base.BaseTest - TEST PASSED: validateTotalPremiumCalculation
+20:27:34.557 [main] INFO  base.BaseTest - --- Tearing down test ---
+20:27:34.557 [main] INFO  utils.DriverFactory - Quitting browser and cleaning up WebDriver
+20:27:36.250 [main] INFO  base.BaseTest - Browser closed successfully
+20:27:36.252 [main] INFO  base.BaseTest - --- Setting up test ---
+20:27:36.253 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+20:27:38.218 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+20:27:38.218 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+20:27:41.674 [main] INFO  base.BaseTest - Browser launched and navigated to application
+20:27:41.675 [main] INFO  base.BaseTest - TEST STARTED: verifyPremiumSummaryDisplaysAllComponents
+20:27:41.676 [main] INFO  utils.ExtentReportManager - Extent test created: verifyPremiumSummaryDisplaysAllComponents
+20:27:41.679 [main] INFO  tests.PremiumValidationTest - ====== Verifying Premium Summary Components ======
+20:27:41.681 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+20:27:41.682 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+20:27:42.505 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+20:27:42.506 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+20:27:42.506 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+20:27:43.747 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+20:27:44.355 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+20:27:44.945 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+20:27:45.566 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+20:27:45.567 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+20:27:45.580 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+20:27:45.581 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+20:27:45.581 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+20:27:46.287 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+20:27:46.692 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+20:27:46.693 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+20:27:46.805 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+20:27:46.817 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+20:27:46.818 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 30, Pincode: 560001
+20:27:46.818 [main] INFO  pages.UserDetailsPage - Entering age: 30
+20:27:47.435 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+20:27:47.547 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+20:27:47.948 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+20:27:47.948 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+20:27:47.948 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+20:27:51.731 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+20:27:51.731 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+20:27:51.819 [main] INFO  pages.PremiumSummaryPage - Base Premium: 14060.0
+20:27:51.820 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+20:27:51.920 [main] INFO  pages.PremiumSummaryPage - Total Premium: 14060.0
+20:27:51.922 [main] INFO  tests.PremiumValidationTest - All premium components verified successfully
+20:27:51.933 [main] INFO  base.BaseTest - TEST PASSED: verifyPremiumSummaryDisplaysAllComponents
+20:27:51.937 [main] INFO  base.BaseTest - --- Tearing down test ---
+20:27:51.939 [main] INFO  utils.DriverFactory - Quitting browser and cleaning up WebDriver
+20:27:53.356 [main] INFO  base.BaseTest - Browser closed successfully
+20:27:53.381 [main] INFO  base.BaseTest - Test context finished: Premium Calculation Test
+20:27:53.843 [main] INFO  utils.ExtentReportManager - Extent Report flushed successfully
+20:27:53.844 [main] INFO  base.BaseTest - ========== TEST SUITE COMPLETED ==========

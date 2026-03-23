@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="56.51" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\abhrao\.cache\selenium\chromedriver\win64\146.0.7680.80\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\abhrao\Downloads\DPK\target\test-classes;C:\Users\abhrao\Downloads\DPK\target\classes;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\abhrao\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\abhrao\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\abhrao\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abhrao\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\abhrao\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\abhrao\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\abhrao\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\abhrao\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\abhrao\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\abhrao\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\abhrao\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\abhrao\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\abhrao\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\abhrao\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\abhrao\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\abhrao\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\abhrao\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\abhrao\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\abhrao\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\abhrao\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\abhrao\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\abhrao\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\abhrao\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\abhrao\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\abhrao\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\abhrao\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\abhrao\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\abhrao\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\abhrao\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\abhrao\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\abhrao\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\abhrao\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\abhrao\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\abhrao\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\abhrao\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\abhrao\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jdk-22.0.2.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\abhrao\AppData\Local\Temp\surefire10294085161103344777\surefirebooter-20260318153116214_3.jar C:\Users\abhrao\AppData\Local\Temp\surefire10294085161103344777 2026-03-18T15-31-15_915-jvmRun1 surefire-20260318153116214_1tmp surefire_0-20260318153116214_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\abhrao\Downloads\DPK\target\test-classes;C:\Users\abhrao\Downloads\DPK\target\classes;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\abhrao\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\abhrao\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\abhrao\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abhrao\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\abhrao\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\abhrao\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\abhrao\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\abhrao\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\abhrao\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\abhrao\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\abhrao\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\abhrao\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\abhrao\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\abhrao\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\abhrao\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\abhrao\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\abhrao\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\abhrao\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\abhrao\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\abhrao\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\abhrao\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\abhrao\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\abhrao\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\abhrao\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\abhrao\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\abhrao\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\abhrao\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\abhrao\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\abhrao\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\abhrao\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\abhrao\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\abhrao\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\abhrao\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\abhrao\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\abhrao\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\abhrao\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\abhrao\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\abhrao\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\abhrao\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abhrao"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\OpenLogic\jdk-22.0.2.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\abhrao\Downloads\DPK"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abhrao\AppData\Local\Temp\surefire10294085161103344777\surefirebooter-20260318153116214_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-adhoc.Administrator.jdk22u"/>
+    <property name="user.name" value="abhrao"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\Users\abhrao\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\Users\abhrao\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\abhrao\Downloads\DPK"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\OpenLogic\jdk-22.0.2.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\abhrao\bin;C:\Users\ABrao\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\OpenLogic\jdk-22.0.2.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\ABrao\AppData\Local\Programs\Python\Launcher;C:\Users\ABrao\AppData\Local\Microsoft\WindowsApps;C:\Users\ABrao\AppData\Roaming\npm;C:\Users\ABrao\AppData\Local\Programs\Python\Python313;C:\Program Files\sf\bin;C:\Users\ABrao\Downloads\stripe_1.27.0_windows_x86_64;C:\Users\ABrao\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\ABrao\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\RedHat\Podman;C:\Program Files\PuTTY;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\abhrao\scoop\shims;C:\Users\abhrao\AppData\Local\Programs\Python\Python314\Scripts;C:\Users\abhrao\AppData\Local\Programs\Python\Python314;C:\Users\abhrao\AppData\Local\Programs\Python\Launcher;C:\Users\abhrao\AppData\Local\Microsoft\WindowsApps;C:\Users\abhrao\AppData\Local\Python\bin;C:\Users\abhrao\AppData\Local\Programs\Windsurf\bin;C:\Users\abhrao\AppData\Local\Python\pythoncore-3.14-64;C:\Users\abhrao\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pip;C:\Users\abhrao\Downloads\stripe_1.35.1_windows_x86_64;C:\Users\abhrao\AppData\Roaming\npm;C:\Users\abhrao\AppData\Local\Programs\Antigravity\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="22.0.2+9-adhoc.Administrator.jdk22u"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="validateTotalPremiumCalculation[John Doe, 28, Bangalore, No](1)" classname="tests.PremiumValidationTest" time="9.698">
+    <system-out><![CDATA[...
+... TestNG 7.10.2 by Cédric Beust (cedric@beust.com)
+...
+
+15:31:18.114 [main] INFO  base.BaseTest - ========== TEST SUITE STARTED ==========
+15:31:18.120 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully
+15:31:18.322 [main] INFO  utils.ExtentReportManager - Extent Reports initialized. Report will be saved to: ./reports/TestReport.html
+15:31:18.330 [main] INFO  base.BaseTest - Test context started: Premium Calculation Test
+15:31:18.410 [main] INFO  base.BaseTest - --- Setting up test ---
+15:31:18.413 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+15:31:21.289 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+15:31:21.289 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+15:31:22.321 [main] INFO  base.BaseTest - Browser launched and navigated to application
+15:31:22.321 [main] INFO  base.BaseTest - TEST STARTED: validateTotalPremiumCalculation
+15:31:22.335 [main] INFO  utils.ExtentReportManager - Extent test created: validateTotalPremiumCalculation
+15:31:22.339 [main] INFO  tests.PremiumValidationTest - ====== Starting Premium Validation Test for: John Doe ======
+15:31:22.355 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+15:31:22.522 [main] INFO  pages.DittoHomePage - Ditto home page loaded successfully
+15:31:22.524 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+15:31:22.922 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+15:31:22.925 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+15:31:24.099 [main] INFO  pages.ProductSelectionPage - Policy understanding page loaded
+15:31:24.099 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+15:31:24.327 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+15:31:24.957 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+15:31:25.582 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+15:31:26.273 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+15:31:26.273 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+15:31:26.314 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+15:31:26.320 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+15:31:26.399 [main] INFO  pages.UserDetailsPage - Members selection page loaded
+15:31:26.399 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+15:31:26.571 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+15:31:27.004 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+15:31:27.004 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+15:31:27.173 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+15:31:27.188 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+15:31:27.322 [main] INFO  pages.UserDetailsPage - Plan page loaded
+15:31:27.322 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 28, Pincode: 560001
+15:31:27.322 [main] INFO  pages.UserDetailsPage - Entering age: 28
+15:31:27.989 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+15:31:28.121 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+15:31:28.454 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+15:31:28.454 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+15:31:28.454 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+15:31:31.788 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+15:31:31.788 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+15:31:31.863 [main] INFO  pages.PremiumSummaryPage - Base Premium: 13680.0
+15:31:31.863 [main] INFO  pages.PremiumSummaryPage - Extracting Rider/Add-on Premiums
+15:31:31.914 [main] INFO  pages.PremiumSummaryPage - Recommended Add-ons: 0.0
+15:31:31.957 [main] INFO  pages.PremiumSummaryPage - Other Add-ons: 0.0
+15:31:31.957 [main] INFO  pages.PremiumSummaryPage - Total Rider/Add-on Premiums: 0.0
+15:31:31.957 [main] INFO  pages.PremiumSummaryPage - GST is embedded in Base Premium on Ditto - no separate line item
+15:31:31.957 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+15:31:32.020 [main] INFO  pages.PremiumSummaryPage - Total Premium: 13680.0
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - ========== PREMIUM BREAKDOWN ==========
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - Base Premium   : Rs. 13680.0
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - Rider Premiums : Rs. 0.0
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - GST (embedded) : Rs. 0.0
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - Total Premium  : Rs. 13680.0
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - ========================================
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - Expected Total : Rs. 13680.0
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - Actual Total   : Rs. 13680.0
+15:31:32.020 [main] INFO  tests.PremiumValidationTest - ASSERTION PASSED: Total Premium matches expected calculation
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Mar 18, 2026 3:31:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 18, 2026 3:31:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="validateTotalPremiumCalculation[Alice Smith, 35, Mumbai, Yes](2)" classname="tests.PremiumValidationTest" time="13.09">
+    <system-out><![CDATA[15:31:32.037 [main] INFO  base.BaseTest - TEST PASSED: validateTotalPremiumCalculation
+15:31:32.037 [main] INFO  base.BaseTest - --- Tearing down test ---
+15:31:32.037 [main] INFO  utils.DriverFactory - Quitting browser and cleaning up WebDriver
+15:31:32.444 [main] INFO  base.BaseTest - Browser closed successfully
+15:31:32.445 [main] INFO  base.BaseTest - --- Setting up test ---
+15:31:32.445 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+15:31:34.016 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+15:31:34.016 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+15:31:34.990 [main] INFO  base.BaseTest - Browser launched and navigated to application
+15:31:34.990 [main] INFO  base.BaseTest - TEST STARTED: validateTotalPremiumCalculation
+15:31:34.990 [main] INFO  utils.ExtentReportManager - Extent test created: validateTotalPremiumCalculation
+15:31:34.990 [main] INFO  tests.PremiumValidationTest - ====== Starting Premium Validation Test for: Alice Smith ======
+15:31:34.990 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+15:31:35.630 [main] INFO  pages.DittoHomePage - Ditto home page loaded successfully
+15:31:35.632 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+15:31:35.958 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+15:31:35.958 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+15:31:37.223 [main] INFO  pages.ProductSelectionPage - Policy understanding page loaded
+15:31:37.223 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+15:31:37.453 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+15:31:38.091 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+15:31:38.739 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+15:31:39.388 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+15:31:39.388 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+15:31:39.415 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+15:31:39.415 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+15:31:40.006 [main] INFO  pages.UserDetailsPage - Members selection page loaded
+15:31:40.006 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+15:31:40.131 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+15:31:40.539 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+15:31:40.539 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+15:31:40.661 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+15:31:40.680 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+15:31:41.235 [main] INFO  pages.UserDetailsPage - Plan page loaded
+15:31:41.237 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 35, Pincode: 560001
+15:31:41.237 [main] INFO  pages.UserDetailsPage - Entering age: 35
+15:31:41.314 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+15:31:41.424 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+15:31:41.819 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+15:31:41.819 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+15:31:41.819 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+15:31:47.786 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+15:31:47.788 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+15:31:47.882 [main] INFO  pages.PremiumSummaryPage - Base Premium: 15010.0
+15:31:47.882 [main] INFO  pages.PremiumSummaryPage - Extracting Rider/Add-on Premiums
+15:31:47.930 [main] INFO  pages.PremiumSummaryPage - Recommended Add-ons: 0.0
+15:31:47.997 [main] INFO  pages.PremiumSummaryPage - Other Add-ons: 0.0
+15:31:47.997 [main] INFO  pages.PremiumSummaryPage - Total Rider/Add-on Premiums: 0.0
+15:31:47.997 [main] INFO  pages.PremiumSummaryPage - GST is embedded in Base Premium on Ditto - no separate line item
+15:31:47.997 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+15:31:48.080 [main] INFO  pages.PremiumSummaryPage - Total Premium: 15010.0
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - ========== PREMIUM BREAKDOWN ==========
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - Base Premium   : Rs. 15010.0
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - Rider Premiums : Rs. 0.0
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - GST (embedded) : Rs. 0.0
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - Total Premium  : Rs. 15010.0
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - ========================================
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - Expected Total : Rs. 15010.0
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - Actual Total   : Rs. 15010.0
+15:31:48.080 [main] INFO  tests.PremiumValidationTest - ASSERTION PASSED: Total Premium matches expected calculation
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2026 3:31:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 18, 2026 3:31:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="validateTotalPremiumCalculation[Rahul Kumar, 45, Delhi, No](3)" classname="tests.PremiumValidationTest" time="9.382">
+    <system-out><![CDATA[15:31:48.080 [main] INFO  base.BaseTest - TEST PASSED: validateTotalPremiumCalculation
+15:31:48.080 [main] INFO  base.BaseTest - --- Tearing down test ---
+15:31:48.080 [main] INFO  utils.DriverFactory - Quitting browser and cleaning up WebDriver
+15:31:48.441 [main] INFO  base.BaseTest - Browser closed successfully
+15:31:48.441 [main] INFO  base.BaseTest - --- Setting up test ---
+15:31:48.441 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+15:31:50.000 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+15:31:50.000 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+15:31:50.951 [main] INFO  base.BaseTest - Browser launched and navigated to application
+15:31:50.951 [main] INFO  base.BaseTest - TEST STARTED: validateTotalPremiumCalculation
+15:31:50.955 [main] INFO  utils.ExtentReportManager - Extent test created: validateTotalPremiumCalculation
+15:31:50.955 [main] INFO  tests.PremiumValidationTest - ====== Starting Premium Validation Test for: Rahul Kumar ======
+15:31:50.957 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+15:31:51.131 [main] INFO  pages.DittoHomePage - Ditto home page loaded successfully
+15:31:51.135 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+15:31:51.488 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+15:31:51.488 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+15:31:52.625 [main] INFO  pages.ProductSelectionPage - Policy understanding page loaded
+15:31:52.625 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+15:31:52.823 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+15:31:53.484 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+15:31:54.151 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+15:31:54.800 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+15:31:54.800 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+15:31:54.825 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+15:31:54.825 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+15:31:54.930 [main] INFO  pages.UserDetailsPage - Members selection page loaded
+15:31:54.930 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+15:31:55.056 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+15:31:55.463 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+15:31:55.463 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+15:31:55.593 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+15:31:55.619 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+15:31:55.721 [main] INFO  pages.UserDetailsPage - Plan page loaded
+15:31:55.721 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 45, Pincode: 560001
+15:31:55.721 [main] INFO  pages.UserDetailsPage - Entering age: 45
+15:31:56.375 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+15:31:56.466 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+15:31:56.788 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+15:31:56.788 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+15:31:56.788 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+15:32:00.072 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+15:32:00.072 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+15:32:00.148 [main] INFO  pages.PremiumSummaryPage - Base Premium: 17290.0
+15:32:00.148 [main] INFO  pages.PremiumSummaryPage - Extracting Rider/Add-on Premiums
+15:32:00.201 [main] INFO  pages.PremiumSummaryPage - Recommended Add-ons: 0.0
+15:32:00.251 [main] INFO  pages.PremiumSummaryPage - Other Add-ons: 0.0
+15:32:00.251 [main] INFO  pages.PremiumSummaryPage - Total Rider/Add-on Premiums: 0.0
+15:32:00.251 [main] INFO  pages.PremiumSummaryPage - GST is embedded in Base Premium on Ditto - no separate line item
+15:32:00.251 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+15:32:00.337 [main] INFO  pages.PremiumSummaryPage - Total Premium: 17290.0
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - ========== PREMIUM BREAKDOWN ==========
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - Base Premium   : Rs. 17290.0
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - Rider Premiums : Rs. 0.0
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - GST (embedded) : Rs. 0.0
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - Total Premium  : Rs. 17290.0
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - ========================================
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - Expected Total : Rs. 17290.0
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - Actual Total   : Rs. 17290.0
+15:32:00.337 [main] INFO  tests.PremiumValidationTest - ASSERTION PASSED: Total Premium matches expected calculation
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2026 3:31:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 18, 2026 3:31:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPremiumSummaryDisplaysAllComponents" classname="tests.PremiumValidationTest" time="9.22">
+    <system-out><![CDATA[15:32:00.337 [main] INFO  base.BaseTest - TEST PASSED: validateTotalPremiumCalculation
+15:32:00.337 [main] INFO  base.BaseTest - --- Tearing down test ---
+15:32:00.337 [main] INFO  utils.DriverFactory - Quitting browser and cleaning up WebDriver
+15:32:00.830 [main] INFO  base.BaseTest - Browser closed successfully
+15:32:00.832 [main] INFO  base.BaseTest - --- Setting up test ---
+15:32:00.832 [main] INFO  utils.DriverFactory - Initializing chrome browser (headless: false)
+15:32:02.460 [main] INFO  utils.DriverFactory - chrome browser initialized successfully
+15:32:02.467 [main] INFO  base.BaseTest - Navigating to: https://app.joinditto.in/fq
+15:32:03.291 [main] INFO  base.BaseTest - Browser launched and navigated to application
+15:32:03.293 [main] INFO  base.BaseTest - TEST STARTED: verifyPremiumSummaryDisplaysAllComponents
+15:32:03.293 [main] INFO  utils.ExtentReportManager - Extent test created: verifyPremiumSummaryDisplaysAllComponents
+15:32:03.293 [main] INFO  tests.PremiumValidationTest - ====== Verifying Premium Summary Components ======
+15:32:03.293 [main] INFO  pages.DittoHomePage - DittoHomePage initialized
+15:32:03.295 [main] INFO  pages.DittoHomePage - Selecting product: Optima Secure
+15:32:03.723 [main] INFO  pages.DittoHomePage - Product 'Optima Secure' selected successfully
+15:32:03.723 [main] INFO  pages.ProductSelectionPage - ProductSelectionPage (Policy Understanding) initialized
+15:32:03.723 [main] INFO  pages.ProductSelectionPage - Navigating through all 4 policy understanding steps
+15:32:04.977 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 1
+15:32:05.593 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 2
+15:32:06.269 [main] INFO  pages.ProductSelectionPage - Clicked Next for step 3
+15:32:06.927 [main] INFO  pages.ProductSelectionPage - Clicked Continue to proceed to members page
+15:32:06.927 [main] INFO  pages.ProductSelectionPage - Waiting for navigation to members page
+15:32:06.951 [main] INFO  pages.ProductSelectionPage - Navigated to members page
+15:32:06.951 [main] INFO  pages.UserDetailsPage - UserDetailsPage initialized
+15:32:06.951 [main] INFO  pages.UserDetailsPage - Selecting Self with gender: Male
+15:32:07.121 [main] INFO  pages.UserDetailsPage - Self chip label clicked
+15:32:07.567 [main] INFO  pages.UserDetailsPage - Gender 'Male' selected for Self
+15:32:07.567 [main] INFO  pages.UserDetailsPage - Clicking Next Step on members page
+15:32:07.721 [main] INFO  pages.UserDetailsPage - Waiting for navigation to plan page
+15:32:07.748 [main] INFO  pages.UserDetailsPage - Navigated to plan page
+15:32:07.750 [main] INFO  pages.UserDetailsPage - Filling plan form - Age: 30, Pincode: 560001
+15:32:07.750 [main] INFO  pages.UserDetailsPage - Entering age: 30
+15:32:08.398 [main] INFO  pages.UserDetailsPage - Entering pincode: 560001
+15:32:08.498 [main] INFO  pages.UserDetailsPage - Clicking Calculate Premium
+15:32:08.842 [main] INFO  pages.UserDetailsPage - Calculate Premium clicked
+15:32:08.842 [main] INFO  pages.UserDetailsPage - Form submitted, waiting for premium calculation
+15:32:08.842 [main] INFO  pages.PremiumSummaryPage - PremiumSummaryPage initialized
+15:32:12.338 [main] INFO  pages.PremiumSummaryPage - Premium summary panel is displayed
+15:32:12.338 [main] INFO  pages.PremiumSummaryPage - Extracting Base Premium
+15:32:12.439 [main] INFO  pages.PremiumSummaryPage - Base Premium: 14060.0
+15:32:12.441 [main] INFO  pages.PremiumSummaryPage - Extracting Total Premium
+15:32:12.513 [main] INFO  pages.PremiumSummaryPage - Total Premium: 14060.0
+15:32:12.513 [main] INFO  tests.PremiumValidationTest - All premium components verified successfully
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2026 3:32:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 18, 2026 3:32:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
